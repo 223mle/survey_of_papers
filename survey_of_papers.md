@@ -13,7 +13,7 @@ Created by [Daiki Tsutsumi](https://tsutsumi-portfolio.wraptas.site/)<br>
 
 # Survey Diary
 
-## 【2023/01/25】** ランダムフォレストを用いた英語科学論文の分類と評価 **<br>
+## 【2023/01/25】**ランダムフォレストを用いた英語科学論文の分類と評価**<br>
 [**[Kobayashi et al., IPSJ, 2011]**](#IPSJ-CH11090006)
 
 
