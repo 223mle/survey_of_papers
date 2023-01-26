@@ -8,8 +8,8 @@
   - [参考サイト](#参考サイト)
 
 自分が読んだ論文を一部まとめたものです。<br>
-[自己紹介](https://tsutsumi-portfolio.wraptas.site/)
-
+[自己紹介](https://tsutsumi-portfolio.wraptas.site/)<br>
+[survey_of_papers](https://github.com/tsutsumi-ozro/survey_of_papers/blob/main/survey_of_papers.md)
 ## 概要
 * このリポジトリは自分のサーベイを時系列順にまとめたものです.
 * 目標は1日1本以上.
@@ -40,7 +40,7 @@
 
 
 感想、まとめ.
-
+* * *
 ```
 ### References
 ```
