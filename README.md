@@ -53,7 +53,7 @@
 ## 参考サイト
 
 * [高速で論文がバリバリ読める落合先生のフォーマットがいい感じだったのでメモ](https://lafrenze.hatenablog.com/entry/2015/08/04/120205)
-* [SeitaroShinagawa / FavoritePapers](https://github.com/SeitaroShinagawa/FavoritePapers)
+* [FavoritePapers](https://github.com/SeitaroShinagawa/FavoritePapers)
 * [survey_in_m2](https://github.com/d-dof/survey_in_m2)
 
 
