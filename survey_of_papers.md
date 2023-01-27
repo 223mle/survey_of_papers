@@ -13,6 +13,7 @@ Created by [Daiki Tsutsumi](https://tsutsumi-portfolio.wraptas.site/)<br>
   - [【2023/01/26】**学術論文PDFからの関連研究章と引用情報の抽出による論文執筆支援のためのデータセット構築**](#20230126学術論文pdfからの関連研究章と引用情報の抽出による論文執筆支援のためのデータセット構築)
   - [【2023/01/26】**学術論文における関連研究の執筆支援のための被引用論文の推定**](#20230126学術論文における関連研究の執筆支援のための被引用論文の推定)
   - [【2023/01/26】**材料科学論文の表の意味解釈データセットの構築**](#20230126材料科学論文の表の意味解釈データセットの構築)
+  - [【2023/01/27】**Scientific Paper Recommendation: A Survey**](#20230127scientific-paper-recommendation-a-survey)
 - [References](#references)
 
 <br>
@@ -61,9 +62,18 @@ Created by [Daiki Tsutsumi](https://tsutsumi-portfolio.wraptas.site/)<br>
 > 日々多数出版される科学技術論文の全てを人手で読解する事は物理的に不可能であるため,論文から自動で情報抽出を行う技術の研究開発が求められる.
 
 という文章に強く共感する. また、そのために様々な情報が含まれている表からの情報抽出に取り組むといった考え方も良い.
+* * *
+
+## 【2023/01/27】**Scientific Paper Recommendation: A Survey**<br>
+[**[Xiaomei et al., IEEE, 2019]**](#SPR_survey)
 
 
 
+Scientific Paper Recommendationに関してのサーベイ論文. 論文推薦に使われている推薦手法のContent-Base Filtering(CBF), Collaborative Filtering(CF), Graph-Based Method(GB), Hybrid Method(HM)の4つを利点、欠点を挙げながら簡単に解説している. その後に評価指標に関して解説し、最後に論文推薦システムの問題点をいくつか挙げている. 推薦アルゴリズムを解説している際、対象は既にいくつかの研究を行っている研究者に対しての推薦であり、これから研究をしたい学生などにとっては用いることができなそうなアルゴリズムだった. そこに関してはCOLD STARTという問題点として、「新規ユーザー、新規論文にとって上手く作用しない」と説明している. また、論文数が指数関数的に増えている現在の問題点としてSCALABILITYを挙げている. (Acceptされたのが2019で論文を出したのは2018だからか)本論文では深層学習を用いた推薦システムの解説がなかったため、現在ではこの問題点を解消しているのか気になる. Introductionが面白くて特に
+> In academic research, recommender systems can provide papers for researchers and helps them quickly find the papers they need.
+
+などは自分がやりたいことに近いと感じた.
+* * *
 
 
 
@@ -77,3 +87,6 @@ Created by [Daiki Tsutsumi](https://tsutsumi-portfolio.wraptas.site/)<br>
 <a name='nlp2021pred_ref_paper'></a>[3]小山康平, 南泰浩, 成松宏美, 堂坂浩二, 東中竜一郎, 田盛大悟, &平博順. 学術論文における関連研究の執筆支援のための被引用論文の推定. In 言語処理学会 第27回年次大会 発表論文集, 2021, 03.
 
 <a name='nlp2022naist_create_dataset'></a>[4] 加藤明彦, 近藤修平, 進藤裕之, &渡辺太郎. 材料科学論文の表の意味解釈データセットの構築. In 言語処理学会 第28回年次大会 発表論文集, 2022, 03.
+
+<a name='SPR_survey'></a>[5] Xiaomei Bai, Mengyang Wang, Ivan Lee, Zhuo Yang,
+Xiangjie Kong, and Feng Xia. 2019. Scientific paper recommendation: A survey. IEEE Access, 7:9324–9339.
