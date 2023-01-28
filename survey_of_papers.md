@@ -14,6 +14,7 @@ Created by [Daiki Tsutsumi](https://tsutsumi-portfolio.wraptas.site/)<br>
   - [【2023/01/26】**学術論文における関連研究の執筆支援のための被引用論文の推定**](#20230126学術論文における関連研究の執筆支援のための被引用論文の推定)
   - [【2023/01/26】**材料科学論文の表の意味解釈データセットの構築**](#20230126材料科学論文の表の意味解釈データセットの構築)
   - [【2023/01/27】**Scientific Paper Recommendation: A Survey**](#20230127scientific-paper-recommendation-a-survey)
+  - [【2023/01/27】**Explaining Relationships Between Scientific Documents**](#20230127explaining-relationships-between-scientific-documents)
 - [References](#references)
 
 <br>
@@ -76,6 +77,13 @@ Scientific Paper Recommendationに関してのサーベイ論文. 論文推薦�
 * * *
 
 
+## 【2023/01/27】**Explaining Relationships Between Scientific Documents**<br>
+[**[Kelvin et al., ACL, 2021]**](#ACL2021_Exp_relation_SD)
+
+
+~~読んでいる途中です(時間かかってます)~~
+* * *
+
 
 
 
@@ -88,5 +96,6 @@ Scientific Paper Recommendationに関してのサーベイ論文. 論文推薦�
 
 <a name='nlp2022naist_create_dataset'></a>[4] 加藤明彦, 近藤修平, 進藤裕之, &渡辺太郎. 材料科学論文の表の意味解釈データセットの構築. In 言語処理学会 第28回年次大会 発表論文集, 2022, 03.
 
-<a name='SPR_survey'></a>[5] Xiaomei Bai, Mengyang Wang, Ivan Lee, Zhuo Yang,
-Xiangjie Kong, and Feng Xia. 2019. Scientific paper recommendation: A survey. IEEE Access, 7:9324–9339.
+<a name='SPR_survey'></a>[5] Xiaomei Bai, Mengyang Wang, Ivan Lee, Zhuo Yang, Xiangjie Kong, and Feng Xia. 2019. Scientific paper recommendation: A survey. IEEE Access, 7:9324–9339.
+
+<a name='ACL2021_Exp_relation_SD'></a>[6]Kelvin Luu, Xinyi Wu, Rik Koncel-Kedziorski, KyleLo, Isabel Cachola, and Noah A. Smith. 2021. Explaining Relationships Between Scientific Documents. In Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers), pages 2130–2144, Stroudsburg, PA, USA. Association for Computational Linguistics.
