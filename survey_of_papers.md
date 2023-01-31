@@ -81,7 +81,7 @@ Scientific Paper Recommendationに関してのサーベイ論文. 論文推薦�
 [**[Kelvin et al., ACL, 2021]**](#ACL2021_Exp_relation_SD)
 
 
-~~読んでいる途中です(時間かかってます)~~
+~~現在面接対策のため一時休止中~~
 * * *
 
 
