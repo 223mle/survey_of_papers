@@ -14,7 +14,7 @@ Created by [Daiki Tsutsumi](https://tsutsumi-portfolio.wraptas.site/)<br>
   - [【2023/01/26】**学術論文における関連研究の執筆支援のための被引用論文の推定**](#20230126学術論文における関連研究の執筆支援のための被引用論文の推定)
   - [【2023/01/26】**材料科学論文の表の意味解釈データセットの構築**](#20230126材料科学論文の表の意味解釈データセットの構築)
   - [【2023/01/27】**Scientific Paper Recommendation: A Survey**](#20230127scientific-paper-recommendation-a-survey)
-  - [【2023/01/27】**Explaining Relationships Between Scientific Documents**](#20230127explaining-relationships-between-scientific-documents)
+  - [【2023/02/11】**Overview of the Third Workshop on Scholarly Document Processing**](#20230211overview-of-the-third-workshop-on-scholarly-document-processing)
 - [References](#references)
 
 <br>
@@ -76,12 +76,14 @@ Scientific Paper Recommendationに関してのサーベイ論文. 論文推薦�
 などは自分がやりたいことに近いと感じた.
 * * *
 
+~~言い訳ですが、就活のため期間が開きました~~
 
-## 【2023/01/27】**Explaining Relationships Between Scientific Documents**<br>
-[**[Kelvin et al., ACL, 2021]**](#ACL2021_Exp_relation_SD)
+## 【2023/02/11】**Overview of the Third Workshop on Scholarly Document Processing**<br>
+[**[Cohan et al., sdp 2022]**](#ACL_sdp_overview)
+
+タイトルの通り、the Third Workshop on Scholarly Document Processing(SDP)の概要を述べている. 基調講演3つの概要、NLP, 情報検索などの利用方法と課題、Shared Taskの紹介を主に行っている. 論文って感じでもない. Shared Taskってものがあるのか、という感じだ. Scholarly Document Processingという分野を知れた(一番知りたかったやつ)ので収穫.
 
 
-~~現在面接対策のため一時休止中~~
 * * *
 
 
@@ -98,4 +100,6 @@ Scientific Paper Recommendationに関してのサーベイ論文. 論文推薦�
 
 <a name='SPR_survey'></a>[5] Xiaomei Bai, Mengyang Wang, Ivan Lee, Zhuo Yang, Xiangjie Kong, and Feng Xia. 2019. Scientific paper recommendation: A survey. IEEE Access, 7:9324–9339.
 
-<a name='ACL2021_Exp_relation_SD'></a>[6]Kelvin Luu, Xinyi Wu, Rik Koncel-Kedziorski, KyleLo, Isabel Cachola, and Noah A. Smith. 2021. Explaining Relationships Between Scientific Documents. In Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers), pages 2130–2144, Stroudsburg, PA, USA. Association for Computational Linguistics.
+<a name='ACL_sdp_overview'></a>[6]Arman Cohan, Guy Feigenblat, Dayne Freitag, Tirthankar Ghosal, Drahomira Herrmannova, Petr Knoth, Kyle Lo, Philipp Mayr, Michal Shmueli-Scheuer, Anita de Waard, and Lucy Lu Wang. 2022. Overview of the Third Workshop on Scholarly Document Processing. In
+Proceedings of the Third Workshop on Scholarly Document Processing. Association for Computational Linguistics, Gyeongju, Republic of
+Korea, 1–6. https://aclanthology.org/2022.sdp-1.1
