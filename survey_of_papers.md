@@ -15,6 +15,7 @@ Created by [Daiki Tsutsumi](https://tsutsumi-portfolio.wraptas.site/)<br>
   - [【2023/01/26】**材料科学論文の表の意味解釈データセットの構築**](#20230126材料科学論文の表の意味解釈データセットの構築)
   - [【2023/01/27】**Scientific Paper Recommendation: A Survey**](#20230127scientific-paper-recommendation-a-survey)
   - [【2023/02/11】**Overview of the Third Workshop on Scholarly Document Processing**](#20230211overview-of-the-third-workshop-on-scholarly-document-processing)
+  - [【】**Keyphrase Extraction from Scientific Articles via Extractive Summarization**](#keyphrase-extraction-from-scientific-articles-via-extractive-summarization)
 - [References](#references)
 
 <br>
@@ -79,9 +80,17 @@ Scientific Paper Recommendationに関してのサーベイ論文. 論文推薦�
 ~~言い訳ですが、就活のため期間が開きました~~
 
 ## 【2023/02/11】**Overview of the Third Workshop on Scholarly Document Processing**<br>
-[**[Cohan et al., sdp 2022]**](#ACL_sdp_overview)
+[**[Cohan et al., sdp, 2022]**](#ACL_sdp_overview)
 
 タイトルの通り、the Third Workshop on Scholarly Document Processing(SDP)の概要を述べている. 基調講演3つの概要、NLP, 情報検索などの利用方法と課題、Shared Taskの紹介を主に行っている. 論文って感じでもない. Shared Taskってものがあるのか、という感じだ. Scholarly Document Processingという分野を知れた(一番知りたかったやつ)ので収穫.
+
+
+* * *
+~~現在就活中のため一時中断しています~~
+## 【】**Keyphrase Extraction from Scientific Articles via Extractive Summarization**<br>
+[**[Kontoulis et al., sdp, 2021]**](#sdp_keyphrase_summarization)
+
+
 
 
 * * *
@@ -100,6 +109,12 @@ Scientific Paper Recommendationに関してのサーベイ論文. 論文推薦�
 
 <a name='SPR_survey'></a>[5] Xiaomei Bai, Mengyang Wang, Ivan Lee, Zhuo Yang, Xiangjie Kong, and Feng Xia. 2019. Scientific paper recommendation: A survey. IEEE Access, 7:9324–9339.
 
-<a name='ACL_sdp_overview'></a>[6]Arman Cohan, Guy Feigenblat, Dayne Freitag, Tirthankar Ghosal, Drahomira Herrmannova, Petr Knoth, Kyle Lo, Philipp Mayr, Michal Shmueli-Scheuer, Anita de Waard, and Lucy Lu Wang. 2022. Overview of the Third Workshop on Scholarly Document Processing. In
+<a name='ACL_sdp_overview'></a>[6] Arman Cohan, Guy Feigenblat, Dayne Freitag, Tirthankar Ghosal, Drahomira Herrmannova, Petr Knoth, Kyle Lo, Philipp Mayr, Michal Shmueli-Scheuer, Anita de Waard, and Lucy Lu Wang. 2022. Overview of the Third Workshop on Scholarly Document Processing. In
 Proceedings of the Third Workshop on Scholarly Document Processing. Association for Computational Linguistics, Gyeongju, Republic of
 Korea, 1–6. https://aclanthology.org/2022.sdp-1.1
+
+<a name='sdp_keyphrase_summarization'></a>[7] Chrysovalantis Giorgos Kontoulis, Eirini Papagiannopoulou, and Grigorios Tsoumakas. 2021.
+Keyphrase extraction from scientific articles via
+extractive summarization. In Proceedings of
+the Second Workshop on Scholarly Document
+Processing, pages 49–55.

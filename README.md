@@ -9,7 +9,8 @@
 
 自分が読んだ論文を一部まとめたものです。<br>
 [自己紹介](https://tsutsumi-portfolio.wraptas.site/)<br>
-[survey_of_papers](https://github.com/tsutsumi-ozro/survey_of_papers/blob/main/survey_of_papers.md)
+[survey_of_papers](https://github.com/tsutsumi-ozro/survey_of_papers/blob/main/survey_of_papers.md)<br>
+[以前読んでいた論文(Notion上で管理)](https://tsutsumi-223.notion.site/ae5c71b04c374c33b7518739bb9a3b2e?v=91863d18eb4c4f8c8633e1b8f10f7339)
 ## 概要
 * このリポジトリは自分のサーベイを時系列順にまとめたものです.
 * 目標は1日1本以上.
