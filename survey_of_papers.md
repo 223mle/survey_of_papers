@@ -15,7 +15,7 @@ Created by [Daiki Tsutsumi](https://tsutsumi-portfolio.wraptas.site/)<br>
   - [【2023/01/26】**材料科学論文の表の意味解釈データセットの構築**](#20230126材料科学論文の表の意味解釈データセットの構築)
   - [【2023/01/27】**Scientific Paper Recommendation: A Survey**](#20230127scientific-paper-recommendation-a-survey)
   - [【2023/02/11】**Overview of the Third Workshop on Scholarly Document Processing**](#20230211overview-of-the-third-workshop-on-scholarly-document-processing)
-  - [【】**Keyphrase Extraction from Scientific Articles via Extractive Summarization**](#keyphrase-extraction-from-scientific-articles-via-extractive-summarization)
+  - [【2023/3/13】**論文の階層構造を活用した被引用数予測**](#2023313論文の階層構造を活用した被引用数予測)
 - [References](#references)
 
 <br>
@@ -86,9 +86,14 @@ Scientific Paper Recommendationに関してのサーベイ論文. 論文推薦�
 
 
 * * *
-~~現在就活中のため一時中断しています~~
-## 【】**Keyphrase Extraction from Scientific Articles via Extractive Summarization**<br>
-[**[Kontoulis et al., sdp, 2021]**](#sdp_keyphrase_summarization)
+~~就活中のため一時中断していました~~
+## 【2023/3/13】**論文の階層構造を活用した被引用数予測**<br>
+[**[hirako et al. 言語処理学会, 2023]**](#nlp2023_paper_pred)
+被引用数の予測では、abstractを用いて本文の情報が活用されていないことが多い. この論文では、被引用数予測において本文を有効に活用することを目指し、論文の階層構造を活用した手法で行っている. 論文は文字数が多いため、Transformerベースのモデルに全文突っ込むと計算量が多いという問題点がある. この問題に関して、`Transformer自体の改善`と`入力する長い系列を分割して処理することで、計算量の増加を抑える`という主に2つのアプローチがある. 今回提案されている階層構造の概要は下図のようになっている. 階層構造(先頭)では、各節の見出しを一文目、内容を二分目としてBERTに入力し、セクション表現を生成. 階層構造(分割)では、各節の内容を50トークンずつオーバーラップさせながらチャンクに分割し、それぞれを用いてBERTでエンコードし、チャンク表現をMean Poolingする. このモデルを用いて一年後の被引用数を予測するタスクに取り組んだ結果、BERT(title+abstractを入力)を上回り、本文を活用する有用性が示された.
+
+
+
+<img width="270" alt="image" src="https://user-images.githubusercontent.com/69502527/224657621-c5d9c72e-f99d-42e4-9c76-324835180ff6.png">
 
 
 
@@ -113,8 +118,4 @@ Scientific Paper Recommendationに関してのサーベイ論文. 論文推薦�
 Proceedings of the Third Workshop on Scholarly Document Processing. Association for Computational Linguistics, Gyeongju, Republic of
 Korea, 1–6. https://aclanthology.org/2022.sdp-1.1
 
-<a name='sdp_keyphrase_summarization'></a>[7] Chrysovalantis Giorgos Kontoulis, Eirini Papagiannopoulou, and Grigorios Tsoumakas. 2021.
-Keyphrase extraction from scientific articles via
-extractive summarization. In Proceedings of
-the Second Workshop on Scholarly Document
-Processing, pages 49–55.
+<a name='nlp2023_paper_pred'></a>[7] 平子潤, 笹野遼平, 武田浩一, 論文の階層構造を活用した被引用数予測. In 言語処理学会第29回年次大会 発表論文集. 2023, 3.
