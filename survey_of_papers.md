@@ -16,6 +16,7 @@ Created by [Daiki Tsutsumi](https://tsutsumi-portfolio.wraptas.site/)<br>
   - [【2023/01/27】**Scientific Paper Recommendation: A Survey**](#20230127scientific-paper-recommendation-a-survey)
   - [【2023/02/11】**Overview of the Third Workshop on Scholarly Document Processing**](#20230211overview-of-the-third-workshop-on-scholarly-document-processing)
   - [【2023/3/13】**論文の階層構造を活用した被引用数予測**](#2023313論文の階層構造を活用した被引用数予測)
+  - [【2023/03/19】**文分類問題における精度と解釈性向上のための近傍事例の活用**](#20230319文分類問題における精度と解釈性向上のための近傍事例の活用)
 - [References](#references)
 
 <br>
@@ -96,6 +97,14 @@ Scientific Paper Recommendationに関してのサーベイ論文. 論文推薦�
 <img width="270" alt="image" src="https://user-images.githubusercontent.com/69502527/224657621-c5d9c72e-f99d-42e4-9c76-324835180ff6.png">
 
 
+* * *
+
+## 【2023/03/19】**文分類問題における精度と解釈性向上のための近傍事例の活用**<br>
+[**[muraoka et al., 言語処理学会, 2023]**](#nlp2023_XAI_knn)
+
+
+
+
 
 
 * * *
@@ -119,3 +128,5 @@ Proceedings of the Third Workshop on Scholarly Document Processing. Association 
 Korea, 1–6. https://aclanthology.org/2022.sdp-1.1
 
 <a name='nlp2023_paper_pred'></a>[7] 平子潤, 笹野遼平, 武田浩一, 論文の階層構造を活用した被引用数予測. In 言語処理学会第29回年次大会 発表論文集. 2023, 3.
+
+<a name='nlp2023_XAI_knn'></a>[8]村岡雅康, 趙陽, 文分類問題における精度と解釈性向上のための近傍事例の活用, In 言語処理学会第29回年次大会 発表論文集. 2023, 3.
