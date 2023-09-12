@@ -56,6 +56,7 @@ XAI系の研究、こういう栄養系のタスクが多い気がする。
 
 
 <img src=./image/To_Trust_exp.png width=300>
+
 ## Result
 
 SXAIはno AIに対して全ての指標に対してパフォーマンスを向上することができた。SXAIとCFFのスコア差に有意な違いはなかった。  
